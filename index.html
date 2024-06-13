@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/6d37effa6c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- col-1 -->
+            <div class="col-lg-4" id="col-one">
+                <div class="row top">
+                    <div class="col-md-12">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h3 class="title text-center"><i class="ri-headphone-fill"></i> Phone</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card shadow" id="available">
+                            <div class="card-body">
+                                <h4 class="title text-center">Available</h4>
+                                <h1 class="text-center" style="color: black;margin: 50px 0;">12</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row" id="q-p">
+                            <div class="col-md-6">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <h6 class="title">in queue</h6>
+                                        <h2 class="text-center">1</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <h6 class="title">in progress</h6>
+                                        <h2 class="text-center">5</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card shadow mcall">
+                                    <div class="card-body">
+                                        <h5 class="title">Oldest missed call</h5>
+                                        <span id="day">00</span>
+                                        <span id="hrs">00</span>
+                                        <span id="min">00</span>
+                                        <span id="sec">00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h6>Current month</h6>
+                                <table class="table">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th colspan="">Employe</th>
+                                            <th>Status</th>
+                                            <th>Completed</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-warning">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-success">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-warning">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-success">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-warning">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- col-2 -->
+            <div class="col-lg-4">
+                <div class="row top">
+                    <div class="col-md-12">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h3 class="title text-center"><i class="fa-regular fa-message"></i> Chats</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h5 class="title">Total</h5>
+                                <h6>Current Week</h6>
+                                <h2 class="text-center">5</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h5 class="title">Average Wait Time</h5>
+                                <h6>Today</h6>
+                                <span>00:</span><span>20</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h5 class="title">% Good ratings</h5>
+                                <h6>Current monts</h6>
+                                <h2 class="text-center">91%</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h5 class="title">Average duration</h5>
+                                <h6>Current week</h6>
+                                <span>22:</span><span>59</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h6>Current month</h6>
+                                <table class="table">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th colspan="">Employe</th>
+                                            <th>Status</th>
+                                            <th>Completed</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-warning">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-success">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-warning">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-success">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-warning">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- col-3 -->
+            <div class="col-lg-4">
+                <div class="row top">
+                    <div class="col-md-12">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h3 class="title text-center">
+                                    <h3 class="title text-center"><i class="ri-mail-line"></i> Cases</h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card shadow">
+                            <div class="card-body ">
+                                <h5 class="title">CSAT Score</h5>
+                                <h6>Current month</h6>
+                                <div class="profile d-flex justify-content-around">
+                                    <div class="box d-flex flex-column text-center">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKojkt0Kx91YQOfDjN7xraDNCZrzPE9C17WzoVfEFsVaWqkCFQUkATHXCBMow5KpupUEQ&usqp=CAU"
+                                            alt="">
+                                        <h6 class="title">Tylar Brayant</h6>
+                                        <span>65%</span>
+                                    </div>
+                                    <div class="box d-flex flex-column text-center">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKojkt0Kx91YQOfDjN7xraDNCZrzPE9C17WzoVfEFsVaWqkCFQUkATHXCBMow5KpupUEQ&usqp=CAU"
+                                            alt="">
+                                        <h6 class="title">Tylar Brayant</h6>
+                                        <span>65%</span>
+                                    </div>
+                                    <div class="box d-flex flex-column text-center">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKojkt0Kx91YQOfDjN7xraDNCZrzPE9C17WzoVfEFsVaWqkCFQUkATHXCBMow5KpupUEQ&usqp=CAU"
+                                            alt="">
+                                        <h6 class="title">Tylar Brayant</h6>
+                                        <span>65%</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h6>Current month</h6>
+                                <table class="table">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th colspan="">Employe</th>
+                                            <th>Status</th>
+                                            <th>Completed</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-warning">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-success">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-warning">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-success">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-cartoon-color-simple-male-avatar-png-image_5230557.jpg" alt=""> Anna Cole</td>
+                                            <td > <button type="button" class="btn btn-warning">Away</button></td>
+                                            <td>35</td>                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
